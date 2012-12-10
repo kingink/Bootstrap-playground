@@ -8,6 +8,10 @@ get '/index' do
 	erb :index
 end
 
+get '/about' do
+	erb :about
+end
+
 get '/some_other_page' do 
 	erb :some_other_page
 end
