@@ -12,6 +12,10 @@ get '/about' do
 	erb :about
 end
 
+get '/contact' do
+	erb :contact
+end
+
 get '/some_other_page' do 
 	erb :some_other_page
 end
