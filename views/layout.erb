@@ -30,10 +30,10 @@
 
   <body>
 
-		<%= yield_content :main_navigation %>
+    <%= yield_content :main_navigation %>
 
     <div class="container">
-			<%= yield %>
+      <%= yield %>
       <footer>
       <p>&copy; Company 2012</p>
       </footer>
@@ -41,12 +41,12 @@
     </div> <!-- /container -->
 
     <script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script>
-			$('#myTab a').click(function (e) {
-				e.preventDefault();
-				$(this).tab('show');
-			})
-		</script>
-	</body>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      })
+    </script>
+  </body>
 </html>
